@@ -1,6 +1,6 @@
 // Use d3 to read the JSON file.
 // The data from the JSON file is arbitrarily named importedData as the argument.
-d3.json("data/data.json").then((importedData) => {
+d3.json("data.json").then((importedData) => {
   // console.log(importedData);
   let data = importedData;
 
